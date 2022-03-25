@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="navbar">
-        <span className="logo">Login</span>
+        <span className="logo">
+          <Link className="link" to="/">The Florida Tennis Club</Link></span>
         <ul className="list">
             <li className="listItem">
                 <img 
